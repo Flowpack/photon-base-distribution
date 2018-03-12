@@ -10,7 +10,9 @@
       "flowpack/photon-common": "@dev",
       "flowpack/photon-contentrepository": "@dev",
       "flowpack/photon-cli": "@dev",
-      "flowpack/photon-fusion": "@dev"
+      "flowpack/photon-fusion": "@dev",
+
+      "flowpack/photon-demo": "@dev"
   },
   "require-dev": {
       "neos/buildessentials": "~4.1.0",
