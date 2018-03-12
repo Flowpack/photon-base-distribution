@@ -1,4 +1,4 @@
-# Photon static site generator (early alpha)
+# Photon static site generator (experimental)
 
 **Photon is a static site generator based on Neos CMS technology.**
 
