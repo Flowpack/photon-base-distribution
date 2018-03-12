@@ -1,0 +1,28 @@
+{
+  "name": "flowpack/photon-base-distribution",
+  "description": "Photon static site generator - base distribution",
+  "license": "MIT",
+  "config": {
+      "vendor-dir": "Packages/Libraries",
+      "bin-dir": "bin"
+  },
+  "require": {
+      "flowpack/photon-common": "@dev",
+      "flowpack/photon-contentrepository": "@dev",
+      "flowpack/photon-cli": "@dev",
+      "flowpack/photon-fusion": "@dev"
+  },
+  "require-dev": {
+      "neos/buildessentials": "~4.1.0",
+      "mikey179/vfsstream": "~1.6",
+      "phpunit/phpunit": "~6.0.0",
+      "symfony/css-selector": "~2.0",
+      "neos/behat": "dev-master"
+  },
+  "scripts": {
+      "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+      "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+      "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+      "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+  }
+}
